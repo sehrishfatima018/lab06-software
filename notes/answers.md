@@ -1,4 +1,6 @@
-apt update downloads the latest list of packages. apt upgrade installs the newer available versions.  GNU nano 8.7.1                                                                                    notes/answers.md
+apt update downloads the latest list of packages. apt upgrade installs the newer available versions.
+
+The command 'apt update' downloads the latest list of available packages from configured repositories without installing or modifying any software on the server. In contrast, 'apt upgrade' fetches and installs the actual updated versions of packages currently installed on the system based on that updated list. Therefore, 'apt update' acts like checking an app store for new updates, while 'apt upgrade' actually presses the update button to perform the installation. It is essential to always run 'apt update' first so the system knows which packages need upgrading.  GNU nano 8.7.1                                                                                    notes/answers.md
 
 
 
